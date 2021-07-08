@@ -1,5 +1,11 @@
+body {
+  background-color: rgb(235, 217, 203);
+  margin: 0;
+}
+
 h1 {
   text-align: center;
+  font-size: 40px;
 }
 
 .color-palette {
@@ -41,4 +47,18 @@ h1 {
   width: 40px;
   height: 40px;
   margin: 2px;
+}
+
+.pixel {
+  border: 1px black solid;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+#pixel-board {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
 }
