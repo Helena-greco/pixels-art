@@ -66,3 +66,8 @@ h1 {
   border-spacing: 0;
   border-collapse: collapse;
 }
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
