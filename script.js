@@ -3,7 +3,7 @@ window.onload = function load() {
 };
 
 const colorPalette = document.querySelectorAll('.color');
-const pixel = document.querySelectorAll('.pixel');
+const pixels = document.querySelectorAll('.pixel');
 const black = document.querySelector('.black');
 const red = document.querySelector('.red');
 const yellow = document.querySelector('.yellow');
