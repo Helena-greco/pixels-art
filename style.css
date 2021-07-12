@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(242, 227, 185);
+  background-image: url(pixel-rainbow.png);
+  background-size:cover ;
   margin: 0;
 }
 

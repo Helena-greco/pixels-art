@@ -27,6 +27,7 @@ function selectedColor(event) {
   }
   color.classList.add('selected');
 }
+
 palette.addEventListener('click', selectedColor);
 
 const table = document.querySelector('#pixel-board');
