@@ -20,8 +20,14 @@
     </section>
     <section class="button">
       <button id="clear-board">Limpar</button>
+      <br>
+      <br>
     </section>
-    <section>
+    <div id="number-board-size"> 
+      <input type="number" id="board-size" min="1">
+      <button type="button" id="generate-board">VQV</button>
+    </div>
+    <section id="table-board">
       <table id="pixel-board">
         <tr id="line">
           <td class="pixel"></td>
@@ -61,7 +67,6 @@
       </table>
     </section>
   </main>
-  <footer></footer>
   <script src="script.js"></script>
 </body>
 </html>
